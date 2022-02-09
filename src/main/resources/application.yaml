@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: orders-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://${DS_URL}:${DS_PORT}/${DS_DB}
+    username: ${DS_USERNAME}
+    password: ${DS_PASSWORD}

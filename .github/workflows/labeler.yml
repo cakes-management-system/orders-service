@@ -1,0 +1,7 @@
+name: Labeler
+
+on: [ pull_request ]
+
+jobs:
+  label:
+    uses: cakes-management-system/ci-cd/.github/workflows/labeler.yml@master

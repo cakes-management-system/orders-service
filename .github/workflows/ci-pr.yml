@@ -1,0 +1,15 @@
+name: CI Orders Service
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    uses: cakes-management-system/ci-cd/.github/workflows/build-with-maven.yml@master
+    with:
+      display-name: Orders Service
+      sonar: true
+      sonar-project-key: cakes-management-system_orders-service
+    secrets:
+      sonar-token: ${{ secrets.SONAR_TOKEN }}
