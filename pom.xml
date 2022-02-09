@@ -57,7 +57,7 @@
         <dependency>
             <groupId>com.koltsov.cms</groupId>
             <artifactId>cms-starter</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${cms.starter.version}</version>
         </dependency>
 
         <dependency>
