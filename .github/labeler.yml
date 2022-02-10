@@ -1,0 +1,3 @@
+ci-cd: .github/**
+src: src/**/*.java
+test: src/test/**/*.java
